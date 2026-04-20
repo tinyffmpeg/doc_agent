@@ -1,0 +1,10 @@
+{
+  "name": "doc-agent-lite",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bash start.sh",
+    "start": "bash start.sh",
+    "build": "echo \"Nothing to build\""
+  },
+  "dependencies": {}
+}

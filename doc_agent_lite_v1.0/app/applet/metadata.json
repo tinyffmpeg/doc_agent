@@ -1,0 +1,6 @@
+{
+  "name": "DocAgent Lite V1.1",
+  "description": "纯本地文献挖掘系统（基于 qwen2.5:7b）的智能检索与挖掘清洗流水线",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

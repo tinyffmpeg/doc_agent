@@ -1,0 +1,9 @@
+llm:
+  base_url: "http://localhost:11434/v1"
+  model: "qwen2.5:7b"
+  embedding_model: "nomic-embed-text"
+  temperature: 0.1
+
+scraper:
+  max_concurrent: 5
+  max_urls_per_query: 5
