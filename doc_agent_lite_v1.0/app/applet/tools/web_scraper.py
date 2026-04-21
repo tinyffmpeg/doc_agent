@@ -8,7 +8,7 @@ from utils.logger import task_logger
 
 async def fetch_pdf(session, title: str, doc_url: str, task_id: str) -> Document | None:
     try:
-        headers = {"User-Agent": "Mozilla/5.0 (mailto:ffmpeg1024@gmail.com) DocAgent/1.1 Academic-Spider"}
+        headers = {"User-Agent": "Mozilla/5.0 (mailto:ffmpeg@gmail.com) DocAgent/1.1 Academic-Spider"}
         
         # Scenario 1: It's a direct PDF
         if doc_url.lower().endswith(".pdf"):
